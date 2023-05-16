@@ -106,7 +106,7 @@ class Simulating:
 
     def _choose_action(self, epsilon, state):
         if random.random() < epsilon:
-            return random.randint(0, 3)
+            return random.randint(0, 2)
         else:
             return np.argmax(self._Model.predict_one(state))
 
