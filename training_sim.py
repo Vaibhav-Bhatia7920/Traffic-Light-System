@@ -3,7 +3,7 @@ import numpy as np
 import random
 import timeit
 import os
-from simu_props import Props
+
 
 Gp_1 = 0
 Yp_1 = 1
