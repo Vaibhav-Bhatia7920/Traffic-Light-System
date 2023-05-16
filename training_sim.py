@@ -54,7 +54,7 @@ class Simulating:
         old_action = -1
 
         while self._no_of_step < self._max_steps:
-            present_state = Props._get_state()
+            present_state = self._get_state()
             present_waiting_time = self._get_total_waitingtime()
         reward = old_total_wait - present_waiting_time
 
